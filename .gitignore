@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+SwitchIL2CPPCache/*
+SwitchIL2CPPStats/*

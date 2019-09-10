@@ -156,7 +156,7 @@ public class Controlador : MonoBehaviour {
                 switch (BN)
                 {
                     case 0:
-                        if (Input.GetKeyDown(KeyCode.Joystick1Button0) || Input.GetKeyDown(KeyCode.DownArrow))
+                        if (Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.RightArrow))
                         {
                             DestruirBomba();
                         }
@@ -166,7 +166,7 @@ public class Controlador : MonoBehaviour {
                         }
                         break;
                     case 1:
-                        if (Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.RightArrow))
+                        if (Input.GetKeyDown(KeyCode.Joystick1Button0) || Input.GetKeyDown(KeyCode.DownArrow))
                         {
                             DestruirBomba();
                         }
